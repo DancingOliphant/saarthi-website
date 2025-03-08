@@ -1,23 +1,12 @@
 import { Navbar } from '@/components/layout/Navbar';
-import { Hero } from '@/components/layout/Hero';
-import { Features } from '@/components/features/Features';
-import { CallToAction } from '@/components/layout/CallToAction';
-import { Testimonials } from '@/components/layout/Testimonials';
-import { Pricing } from '@/components/layout/Pricing';
-import { Footer } from '@/components/layout/Footer';
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <main>
-        <Hero />
-        <Features />
-        <CallToAction />
-        <Testimonials />
-        <Pricing />
+      <main className="container mx-auto px-4 pt-20">
+        <h1 className="text-3xl font-bold">Welcome to KrimOS</h1>
       </main>
-      <Footer />
     </>
   );
 }
