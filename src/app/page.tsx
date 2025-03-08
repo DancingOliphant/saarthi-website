@@ -1,12 +1,14 @@
-import { Navbar } from '@/components/layout/Navbar';
-
 export default function Home() {
   return (
-    <>
-      <Navbar />
-      <main className="container mx-auto px-4 pt-20">
-        <h1 className="text-3xl font-bold">Welcome to KrimOS</h1>
+    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
+        <h1 className="text-6xl font-bold">
+          Welcome to{' '}
+          <span className="text-blue-600">
+            KrimOS
+          </span>
+        </h1>
       </main>
-    </>
+    </div>
   );
 }

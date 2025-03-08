@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  output: 'export',  // Static site generation for Netlify
+  trailingSlash: true,
+  images: {
+    unoptimized: true,
+  },
 }
 
 module.exports = nextConfig
