@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',  // Static site generation for Netlify
+  output: 'export',
   trailingSlash: true,
   images: {
     unoptimized: true,
